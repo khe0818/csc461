@@ -1,0 +1,73 @@
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+------------------- Testing RELEASE ----------------------
+
+Creation of original List: 4.850190 ms
+
+Original linked list---------------------------
+   Finding Key: 0.120701 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 1530.227051 ms
+         Merge Time: 5.688524 ms
+  Merge/Insert Time: 4.149798 ms   Cutoff length: xx
+
+  Merge vs Merge / Insert: 1.370795 faster
+
+--------- NOT USING LOAD IN PLACE (using many news ) ---------------------
+
+    Time to create File: 3.881712 ms  
+  Time to recreate list: 6.760870 ms  
+
+  Verify Time: 0.250022 ms  Result: 1
+
+ (x86 Release) testPass: 5
+ (x86 Release) testFail: 0
+
+ testCount: 5
+indvChecks: 36
+
+-----------------
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+------------------- Testing RELEASE ----------------------
+
+Creation of original List: 4.903150 ms
+
+Original linked list---------------------------
+   Finding Key: 0.107152 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 1516.909668 ms
+         Merge Time: 5.719726 ms
+  Merge/Insert Time: 4.304985 ms   Cutoff length: xx
+
+  Merge vs Merge / Insert: 1.328629 faster
+
+--------- LOAD IN PLACE - Only using one new() ------------------
+
+    Time to create File: 4.870306 ms  
+  Time to recreate list: 0.740625 ms  
+
+  Verify Time: 0.242222 ms  Result: 1
+
+ (x86 Release) testPass: 5
+ (x86 Release) testFail: 0
+
+ testCount: 5
+indvChecks: 36
+
+-----------------
+

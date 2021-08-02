@@ -1,0 +1,28 @@
+Program Assignment 
+Name: Student_Test_04
+Mode: DEBUG
+
+-------------------------------------------------
+
+Test4: 
+
+ 1) allocate regular size block        
+     Mem mem;                          
+     mem.initialize();                 
+     void *p = mem.malloc( 200 );      
+     mem.dump();                       
+
+------- dump -------------
+
+heapStart: 0x002FB050     
+  heapEnd: 0x00307850   
+
+pUsedHead: 0x002FB080     
+pFreeHead: 0x002FB290     
+ pNextFit: 0x002FB290   
+
+Heap Hdr   s: 002FB050  e: 002FB080                            size: 0x30 
+USED HDR   s: 002FB080  e: 002FB090  p: 00000000  n: 00000000  size: 0x10    AF: 0 
+USED       s: 002FB090  e: 002FB290                            size: 0x200 
+FREE HDR   s: 002FB290  e: 002FB2A0  p: 00000000  n: 00000000  size: 0x10    AF: 0 
+FREE       s: 002FB2A0  e: 00307850                            size: 0xc5b0 

@@ -1,0 +1,56 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: failed ... Grade 0   
+[x86 Debug]   RUN: failed ... Grade 0 
+ 
+       MEMORY: failed ... 20% deduction  
+ 
+   
+   --- For grading --- 
+
+         Unit Pass: 0
+       Unit Failed: 0
+
+               Raw: 0.0
+        Deductions: 0.0
+       Final Score: 0.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+debug FAILED Build 
+1>------ Build started: Project: PA1, Configuration: Debug Win32 ------
+1>main.cpp
+1>HotDog.cpp
+1>Order.cpp
+1>Stand.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>HotDog_Add_Tests.cpp
+1>HotDog_BigFour_Tests.cpp
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(16): error C2659: '=': function as left operand
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(17): error C2659: '=': function as left operand
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(18): error C2659: '=': function as left operand
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(36): warning C4458: declaration of 'condiment' hides class member
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.h(38): note: see declaration of 'HotDog::condiment' (compiling source file HotDog.cpp)
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(42): warning C4458: declaration of 'condiment' hides class member
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.h(38): note: see declaration of 'HotDog::condiment' (compiling source file HotDog.cpp)
+1>c:\code\___csc461_winter2019\student\khe11\pa1\pa1\hotdog.cpp(50): warning C4302: 'type cast': truncation from 'unsigned char *' to 'unsigned char'
+1>HotDog_Condiments_Tests.cpp
+1>HotDog_Remove_Tests.cpp
+1>Order_Add_Tests.cpp
+1>Order_BigFour_Tests.cpp
+1>Order_Remove_Tests.cpp
+1>Stress_Tests.cpp
+1>Done building project "PA1.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+

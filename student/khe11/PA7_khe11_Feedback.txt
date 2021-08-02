@@ -1,0 +1,214 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+    Debug Build: success  
+  Release Build: success  
+ 
+  Debug RUN: success 
+Release RUN: failed ... Grade 0 
+ 
+      Crash due to an Exception thrown
+
+       MEMORY: failed ... 20% deduction  
+ 
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 0
+   
+   
+       Insertion Time: 1513.194092 ms
+           Merge Time: 2.869307 ms
+   
+Merge_Vs_Insert Ratio: 527.372681 faster
+   
+           Combo Time: 2.896403 ms   Cutoff length: 14
+   
+ Combo_Vs_Merge Ratio: 0.990645 faster
+   
+   
+   
+ 
+  Merge_Vs_Insert Ratio: 
+            [x >= 200.0] --> 1 pts 
+            [x <  200.0] --> 0 pts 
+ 
+   Combo_Vs_Merge Ratio: 
+            [x >  1.0] --> 1 pts 
+            [x <= 1.0] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+using Merge_Vs_Insert Ratio: 527.37268
+               --> 1 pts
+ 
+using Combo_Vs_Merge Ratio: 0.990645
+               --> 0 pts
+ 
+(Unit+Merge+Combo)Raw: 0
+           Deductions: 0.0
+          Final Score: 0.0
+
+---------------------------------  
+    Run Debug                       
+---------------------------------  
+                                   
+1>------ Build started: Project: FileSystem, Configuration: Debug Win32 ------
+1>main.cpp
+1>CustomDestructCommand.cpp
+1>UnitTestDestructCommad.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>------ Build started: Project: FileSystem, Configuration: Debug Win32 ------
+1>main.cpp
+1>CustomDestructCommand.cpp
+1>UnitTestDestructCommad.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>Node.cpp
+1>OList.cpp
+1>READONLY_OList.cpp
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>Node.cpp
+1>OList.cpp
+1>READONLY_OList.cpp
+1>PA7.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA7\Debug\FileSystem.exe
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+Creation of original List: 22.018820 ms
+
+Original linked list---------------------------
+   Finding Key: 0.510719 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+1>PA7.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA7\Debug\FileSystem.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+       Insertion Time: 2039.697388 ms
+           Merge Time: 5.326836 ms
+
+Merge_Vs_Insert Ratio: 382.909760 faster
+
+           Combo Time: 5.337100 ms   Cutoff length: 14
+
+ Combo_Vs_Merge Ratio: 0.998077 faster
+
+    Time to create File: 7.594282 ms  
+
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 0
+
+ testCount: 4
+indvChecks: 30
+
+-----------------
+Detected memory leaks!
+Dumping objects ->
+{125098} normal block at 0x00787040, 600000 bytes long.
+ Data: <                > CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD 
+Object dump complete.
+
+--------------------------------
+>>> Memory Tracking: fail <<<<<<
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+---------------------------------  
+    Run Release                    
+---------------------------------  
+                                   
+1>------ Build started: Project: FileSystem, Configuration: Release Win32 ------
+1>main.cpp
+1>CustomDestructCommand.cpp
+1>UnitTestDestructCommad.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>------ Build started: Project: FileSystem, Configuration: Release Win32 ------
+1>main.cpp
+1>CustomDestructCommand.cpp
+1>UnitTestDestructCommad.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>Node.cpp
+1>OList.cpp
+1>READONLY_OList.cpp
+1>Generating code
+1>Finished generating code
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>Node.cpp
+1>OList.cpp
+1>READONLY_OList.cpp
+1>Generating code
+1>Finished generating code
+1>PA7.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA7\Release\FileSystem.exe
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+------------------- Testing RELEASE ----------------------
+
+Creation of original List: 7.947762 ms
+
+Original linked list---------------------------
+   Finding Key: 0.171608 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+1>PA7.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA7\Release\FileSystem.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+       Insertion Time: 1513.194092 ms
+           Merge Time: 2.869307 ms
+
+Merge_Vs_Insert Ratio: 527.372681 faster
+
+           Combo Time: 2.896403 ms   Cutoff length: 14
+
+ Combo_Vs_Merge Ratio: 0.990645 faster
+

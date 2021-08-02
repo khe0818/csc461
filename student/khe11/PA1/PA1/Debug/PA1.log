@@ -1,0 +1,9 @@
+﻿  HotDog.cpp
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(16): error C2659: '=': function as left operand
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(17): error C2659: '=': function as left operand
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(18): error C2659: '=': function as left operand
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(36): warning C4458: declaration of 'condiment' hides class member
+  c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.h(38): note: see declaration of 'HotDog::condiment'
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(42): warning C4458: declaration of 'condiment' hides class member
+  c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.h(38): note: see declaration of 'HotDog::condiment'
+c:\users\kaijun\desktop\csc461\student\khe11\pa1\pa1\hotdog.cpp(50): warning C4302: 'type cast': truncation from 'unsigned char *' to 'unsigned char'

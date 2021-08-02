@@ -1,0 +1,24 @@
+Program Assignment 
+Name: Student_Test_01
+Mode: DEBUG
+
+-------------------------------------------------
+
+Test 1: 
+
+     Mem mem;               
+     mem.initialize();      
+     mem.dump();            
+
+------- dump -------------
+
+heapStart: 0x002FB050     
+  heapEnd: 0x00307850   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x002FB080     
+ pNextFit: 0x002FB080   
+
+Heap Hdr   s: 002FB050  e: 002FB080                            size: 0x30 
+FREE HDR   s: 002FB080  e: 002FB090  p: 00000000  n: 00000000  size: 0x10    AF: 0 
+FREE       s: 002FB090  e: 00307850                            size: 0xc7c0 

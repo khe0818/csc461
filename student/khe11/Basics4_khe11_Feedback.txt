@@ -1,0 +1,82 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 2
+   
+   --- For grading --- 
+
+         Unit Pass: 4
+       Unit Failed: 2
+
+               Raw: 4
+        Deductions: 0.0
+       Final Score: 4.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+message: MonkeyBra
+message: Mono
+message: 
+c:\code\___csc461_winter2019\student\khe11\basics4\test\sortstrings_test.cpp(41): sort_strings_s4_Test 
+c:\code\___csc461_winter2019\student\khe11\basics4\test\sortwordlength_test.cpp(41): sort_strings_wordlength_s5_Test 
+
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 2
+
+ testCount: 6
+indvChecks: 34
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Basics4, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>CompareStrings_Test.cpp
+1>CopyStrings_Test.cpp
+1>CopyToBuffer_Test.cpp
+1>SortStrings_Test.cpp
+1>SortWordLength_Test.cpp
+1>StringLength_Test.cpp
+1>ComparingStrings.cpp
+1>CopyingStrings.cpp
+1>CopyToBuffer.cpp
+1>LengthOfStrings.cpp
+1>SortStrings.cpp
+1>Basics4.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics4\Debug\Basics4.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

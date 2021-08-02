@@ -1,0 +1,78 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 9
+ (x86 Debug) testFail: 1
+   
+   --- For grading --- 
+
+         Unit Pass: 9
+       Unit Failed: 1
+
+               Raw: 9
+        Deductions: 0.0
+       Final Score: 9.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+c:\code\___csc461_winter2019\student\khe11\basics7\test\vtableunittests.cpp(23): vtable1_A_vTableTests_Test
+
+ (x86 Debug) testPass: 9
+ (x86 Debug) testFail: 1
+
+ testCount: 10
+indvChecks: 92
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Basics7, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>vTableUnitTests.cpp
+1>answerRegistry.cpp
+1>vTableQuestions_A.cpp
+1>vTableQuestions_B.cpp
+1>vTableQuestions_C.cpp
+1>vTableQuestions_D.cpp
+1>vTableQuestions_E.cpp
+1>vTableQuestions_F.cpp
+1>vTableQuestions_G.cpp
+1>vTableQuestions_M.cpp
+1>vTableQuestions_N.cpp
+1>vTableQuestions_O.cpp
+1>Basics7.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics7\Debug\Basics7.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

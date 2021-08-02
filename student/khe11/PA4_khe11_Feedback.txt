@@ -1,0 +1,85 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+  debug BUILD: success  
+    debug RUN: success 
+ 
+release BUILD: success  
+  release RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 6
+ (x86 Debug) testFail: 0
+   
+ (x86 Release) testPass: 6
+ (x86 Release) testFail: 0
+   
+--- 1st run ---   
+   
+--- 2nd run ---   
+   
+--- 3rd run ---   
+   
+  using -->: -1.0
+ 
+  custom stress time [x <= 29 ms] --> 5 pts 
+                     [x <= 39 ms] --> 4 pts 
+                     [x <= 49 ms] --> 3 pts 
+                     [x <= 59 ms] --> 2 pts 
+                     [x <= 69 ms] --> 1 pts 
+                     [x  > 69 ms] --> 0 pts 
+ 
+    Coalesce Scenario 1: 0 pts 
+    Coalesce Scenario 2: 0 pts 
+    Coalesce Scenario 3: 0 pts 
+ 
+   --- For grading --- 
+
+         Unit Pass: 6
+       Unit Failed: 0
+
+(test 16) Coalesce: 0
+     Custom stress: -1.0 --> 0 pts
+
+               Raw: 6
+        Deductions: 0.0
+       Final Score: 6.0
+
+1>------ Build started: Project: PA4, Configuration: Debug Win32 ------
+1>main.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>Mem_Test_06.cpp
+1>Mem_Test_07.cpp
+1>Mem_Test_08.cpp
+1>Mem_Test_09.cpp
+1>Mem_Test_10.cpp
+1>Mem_Test_11.cpp
+1>Mem_Test_12.cpp
+1>Mem_Test_13.cpp
+1>Mem_Test_14.cpp
+1>Mem_Test_15.cpp
+1>Mem_Test_16.cpp
+1>Mem_Test_17_Stress.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>MemReadOnly.cpp
+1>Used.cpp
+1>PA4.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA4\Debug\PA4.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

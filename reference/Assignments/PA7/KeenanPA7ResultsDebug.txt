@@ -1,0 +1,94 @@
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+Creation of original List: 15.965311 ms
+
+Original linked list---------------------------
+   Finding Key: 0.507024 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 2066.831787 ms
+         Merge Time: 8.881340 ms
+  Merge/Insert Time: 7.051126 ms   Cutoff length: xx
+
+  Merge vs Merge / Insert: 1.259563 faster
+
+--------- NOT USING LOAD IN PLACE (using many news ) ---------------------
+
+    Time to create File: 6.720226 ms  
+  Time to recreate list: 18.495506 ms  
+
+  Verify Time: 1.590044 ms  Result: 1
+
+ (x86 Debug) testPass: 5
+ (x86 Debug) testFail: 0
+
+ testCount: 5
+indvChecks: 36
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+Creation of original List: 15.987480 ms
+
+Original linked list---------------------------
+   Finding Key: 0.348554 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 2081.833496 ms
+         Merge Time: 9.658504 ms
+  Merge/Insert Time: 7.074938 ms   Cutoff length: xx
+
+  Merge vs Merge / Insert: 1.365171 faster
+
+--------- LOAD IN PLACE - Only using one new() ------------------
+
+    Time to create File: 6.788377 ms  
+  Time to recreate list: 0.892937 ms  
+
+  Verify Time: 1.037450 ms  Result: 1
+
+ (x86 Debug) testPass: 5
+ (x86 Debug) testFail: 0
+
+ testCount: 5
+indvChecks: 36
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+

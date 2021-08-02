@@ -1,0 +1,86 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: failed ... Grade 0 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: failed ... Grade 0 
+ 
+       MEMORY: failed ... 20% deduction  
+ 
+      CRASHED due to exceptions
+   
+   --- For grading --- 
+
+         Unit Pass: 0
+       Unit Failed: 0
+
+               Raw: 0.0
+        Deductions: 0.0
+       Final Score: 0.0
+
+1>------ Build started: Project: COW_LIST, Configuration: Release Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>NodeTest_N20.cpp
+1>NodeTest_N21.cpp
+1>NodeTest_N22.cpp
+1>NodeTest_N23.cpp
+1>NodeTest_N30.cpp
+1>NodeTest_N31.cpp
+1>NodeTest_N32.cpp
+1>NodeTest_N33.cpp
+1>Boustrophedonic.cpp
+1>Node.cpp
+1>Generating code
+1>Finished generating code
+1>PA9.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA9\Release\COW_LIST.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+remove:---> (2,0) 
+remove:---> (2,1) 
+remove:---> (2,2) 
+remove:---> (2,3) 
+remove:---> (3,0) 
+remove:---> (3,1) 
+
+1>------ Build started: Project: COW_LIST, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>NodeTest_N20.cpp
+1>NodeTest_N21.cpp
+1>NodeTest_N22.cpp
+1>NodeTest_N23.cpp
+1>NodeTest_N30.cpp
+1>NodeTest_N31.cpp
+1>NodeTest_N32.cpp
+1>NodeTest_N33.cpp
+1>Boustrophedonic.cpp
+1>Node.cpp
+1>PA9.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA9\Debug\COW_LIST.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

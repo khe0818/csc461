@@ -1,0 +1,12 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27026.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\GameParticles\Math /IC:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\Framework /IC:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\Main /IC:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\GameParticles\DO_NOT_MODIFY /IC:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\GameParticles /Zi /W4 /WX- /Wv:"19.14.26433" /diagnostics:classic /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D NO_OXY /D "WINDOWS_TARGET_PLATFORM=\"10.0.17134.0\"" /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc141.pdb" /Gd /TP /FIMemTrackerMain.h /analyze- /FC /errorReport:prompt ..\Main\main.cpp
+  
+  main.cpp
+  Generating code
+  1 of 194 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GameParticles.vcxproj -> C:\Users\kaijun\Desktop\csc461\reference\Assignments\GameParticles\Release\GameParticles.exe

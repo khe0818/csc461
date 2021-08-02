@@ -1,0 +1,72 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 4
+       Unit Failed: 0
+
+               Raw: 4
+        Deductions: 0.0
+       Final Score: 4.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+ (x86 Debug) testPass: 4
+ (x86 Debug) testFail: 0
+
+ testCount: 4
+indvChecks: 138
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Basics6, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>STL_Tests.cpp
+1>A.cpp
+1>B.cpp
+1>C.cpp
+1>D.cpp
+1>Vect.cpp
+1>ZipCode.cpp
+1>Basics6.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics6\Debug\Basics6.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

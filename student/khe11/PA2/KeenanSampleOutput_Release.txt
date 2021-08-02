@@ -1,0 +1,62 @@
+
+************************************
+**      Framework: 2.20           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+------------------- Testing RELEASE ----------------------
+
+data A:
+  0x00: 00 00 00 00 
+  0x04: 00 aa aa aa 
+------------------------
+size : 8  padding : 3 
+
+data B:
+  0x00: 00 00 00 00 
+  0x04: 00 00 00 00 
+  0x08: 00 00 00 00 
+------------------------
+size : 12  padding : 0 
+
+data C:
+  0x00: 00 00 00 00 
+  0x04: 00 00 00 00 
+  0x08: 00 aa aa aa 
+  0x0c: aa aa aa aa 
+------------------------
+size : 16  padding : 7 
+
+data D:
+  0x00: 00 00 00 00 
+  0x04: 00 aa aa aa 
+  0x08: 00 00 00 00 
+  0x0c: 00 00 00 00 
+  0x10: 00 00 00 00 
+  0x14: 00 00 00 00 
+  0x18: 00 00 00 00 
+  0x1c: aa aa aa aa 
+  0x20: 00 00 00 00 
+  0x24: 00 00 00 00 
+  0x28: 00 aa aa aa 
+  0x2c: aa aa aa aa 
+------------------------
+size : 48  padding : 14 
+
+
+Bloated List (create): 1.573511 s
+   Hot/Cold (convert): 74.099907 ms
+
+       Bloated (find): 9.680271 ms
+      Hot/Cold (find): 0.527141 ms
+
+                Ratio: 18.363707 
+
+ (x86 Release) testPass: 6
+ (x86 Release) testFail: 0
+
+ testCount: 6
+indvChecks: 2540
+
+-----------------

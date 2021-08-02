@@ -1,0 +1,248 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+  debug BUILD: success  
+    debug RUN: success 
+ 
+release BUILD: success  
+  release RUN: success 
+ 
+       MEMORY: success  
+ 
+  ALIGN_PRINT: success 
+ 
+ (x86 Debug) testPass: 6
+ (x86 Debug) testFail: 0
+   
+ (x86 Release) testPass: 6
+ (x86 Release) testFail: 0
+   
+--- 1st run  ---   
+  Bloated List create: 1.621499 s
+      HotCold convert: 78.242889 ms
+         Bloated find: 8.202732 ms
+         HotCold find: 0.835463 ms
+   
+--- 2nd run  ---   
+  Bloated List create: 1.671671 s
+      HotCold convert: 77.140579 ms
+         Bloated find: 9.450384 ms
+         HotCold find: 0.915110 ms
+   
+--- 3rd run  ---   
+  Bloated List create: 1.640523 s
+      HotCold convert: 77.224739 ms
+         Bloated find: 9.353085 ms
+         HotCold find: 0.527142 ms
+   
+ 
+ Hot/Cold convert [x <= 117 ms] --> 1 pt 
+                  [x >  117 ms] --> 0 pt 
+
+ Hot/Cold find    [x <= 0.825 ms] --> 2 pts 
+                  [x <=  1.10 ms] --> 1 pt 
+                  [x >   1.10 ms] --> 0 pt 
+ 
+---- For Grading ---- 
+ 
+using Convert time: 77.140579 ms
+                --> 1.0 pts
+ 
+using Find time: 0.527142 ms
+             --> 2.0 pts
+ 
+ 
+         Unit Test: 6
+       Align Print: 1.0
+  Hot/Cold convert: 1.0
+  Hot/Cold    find: 2.0
+
+               Raw: 10.0
+        Deductions: 0.0
+       Final Score: 10.0 / 10.0
+
+1>------ Build started: Project: PA2, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>AlignmentPrint_Tests.cpp
+1>AlignmentRework_Tests.cpp
+1>BloatedFindKey_Tests.cpp
+1>HotColdConvert_Tests.cpp
+1>HotColdLink_Tests.cpp
+1>HotColdTiming_Tests.cpp
+1>Align.cpp
+1>AlignData.cpp
+1>Bloated.cpp
+1>Bloated_FindKey.cpp
+1>ColdNode.cpp
+1>HotCold.cpp
+1>HotNode.cpp
+1>Node.cpp
+1>PA2.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA2\Debug\PA2.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+//-----------------------------------------------------------------------------
+// Copyright Ed Keenan 2019
+// Optimized C++
+//----------------------------------------------------------------------------- 
+
+#include "Framework.h"
+
+// user headers
+#include "bloated.h"
+#include "Node.h"
+
+#define STUB_PLEASE_REPLACE(x) (x)
+
+//----------------------------------------------------------------------------------
+// Find Key using linked lists (pointers only) 
+//    Hint: use ->pNext
+//    YOU MUST - iterate through the nodes in a linked list fashion or 0 credit
+//               starting from the head until you find it
+//
+// Return true if you find the node
+// Return the pointer in the argument list to the node (if found)
+//----------------------------------------------------------------------------------
+
+bool Bloated::FindKey(int key, Node *&foundNode) const
+{
+	//STUB_PLEASE_REPLACE(key);
+	//STUB_PLEASE_REPLACE(foundNode);
+	Node *p = Bloated::GetListHead();
+	bool flag = false;
+	while (p != nullptr) {
+		if (p->key == key) {
+			foundNode = p;
+			flag = true;
+			break;
+		}
+
+		p = p->pNext;
+
+	}
+	return flag;
+}
+
+// End of File
+//-----------------------------------------------------------------------------
+// Copyright Ed Keenan 2019
+// Optimized C++
+//----------------------------------------------------------------------------- 
+
+#include "Framework.h"
+
+// Users
+#include "Bloated.h"
+#include "Node.h"
+#include "hotcold.h"
+
+#define STUB_PLEASE_REPLACE(x) (x)
+
+
+
+HotCold::HotCold(const Bloated * const pBloated)
+{
+	
+	this->pHotHead = 0;
+	this->pColdHead = 0;
+	this->Size = pBloated->GetSize();
+	int numbers = (int)this->Size;
+	HotNode *p = new  HotNode[this->Size];
+	ColdNode *Cold = new ColdNode[this->Size];
+	this->pHotHead = p;
+	this->pColdHead = Cold;
+	HotNode *pFirst = p;
+	HotNode *pLast = p + numbers - 1;
+	HotNode *pCurr = pFirst;
+
+	Node *n = pBloated->GetListHead();
+	for (int i = 0; i < numbers; i++)
+	{
+		//pCurr->pCold = this->pColdHead;
+		pCurr->pCold = Cold;
+		pCurr->pCold->pHot = pCurr;
+		pCurr->pCold->A = n->A;
+		pCurr->pCold->B = n->B;
+		pCurr->pCold->C = n->C;
+		pCurr->pCold->MA = n->MA;
+		pCurr->pCold->MB = n->MB;
+		pCurr->pCold->MC = n->MC;
+		pCurr->pCold->MD = n->MD;
+		pCurr->pCold->x = n->x;
+		pCurr->pCold->y = n->y;
+		pCurr->pCold->z = n->z;
+		pCurr->key = n->key;
+		memcpy(pCurr->pCold->name, n->name, n->NAME_SIZE);
+		pCurr->pNext = pCurr + 1;
+		pCurr->pPrev = pCurr - 1;
+		pCurr++;
+		Cold++;
+		n++;
+	}
+
+	pLast->pNext = 0;
+	pFirst->pPrev = 0;
+	
+
+
+
+}
+
+HotCold::~HotCold()
+{
+	delete[] this->pHotHead;
+	delete[] this->pColdHead;
+	// HINT - do something here
+}
+
+//----------------------------------------------------------------------------------
+// Find Key using linked lists (pointers only) 
+//    Hint: use ->pNext
+//    YOU MUST - iterate through the nodes in a linked list fashion or 0 credit
+//
+// Return true if you find the node
+// Return the pointer in the argument list to the HotNode and ColdNode (if found)
+//----------------------------------------------------------------------------------
+bool HotCold::FindKey(int key, ColdNode *&pFoundColdNode, HotNode *&pFoundHotNode)
+{
+	//STUB_PLEASE_REPLACE(key);
+	//STUB_PLEASE_REPLACE(pFoundColdNode);
+	//STUB_PLEASE_REPLACE(pFoundHotNode);
+	HotNode *p = HotCold::GetHotHead();
+	//ColdNode *c = p->pCold;
+	//Trace::out("hothead %x\n", p);
+	bool flag = false;
+	while (p != nullptr) {
+		if (p->key == key) {
+			//Trace::out("key %x\n", p->key);
+			pFoundHotNode = p;
+			//Trace::out("pFoundHotNode %x\n", pFoundHotNode->key);
+			pFoundColdNode = p->pCold;
+			//Trace::out("pFoundColdNode %x\n", pFoundColdNode->pHot->key);
+
+			flag = true;
+			break;
+		}
+
+		p = p->pNext;
+
+	}
+	return flag;
+
+}
+
+HotNode *HotCold::GetHotHead() const
+{
+	return this->pHotHead;
+}
+
+// ---  End of File ---------------

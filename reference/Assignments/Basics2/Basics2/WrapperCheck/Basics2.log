@@ -1,0 +1,73 @@
+﻿  main.cpp
+  FileIO.cpp
+  Timer.cpp
+  UnitTest.cpp
+  A.cpp
+  B.cpp
+  C.cpp
+  D.cpp
+  E.cpp
+  F.cpp
+  G.cpp
+  H.cpp
+  M.cpp
+  privateInheritanceTests.cpp
+  publicInheritanceTests.cpp
+  MiddlewareNative.cpp
+  N.cpp
+  O.cpp
+  P.cpp
+  Wrapper.cpp
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(44): error C2660: 'Vect2D_Native::getX': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(53): note: see declaration of 'Vect2D_Native::getX' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(49): error C2660: 'Vect2D_Native::getY': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(54): note: see declaration of 'Vect2D_Native::getY' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(54): error C2247: 'Vect2D_Native::setX' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(50): note: see declaration of 'Vect2D_Native::setX'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(55): error C2247: 'Vect2D_Native::setY' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(51): note: see declaration of 'Vect2D_Native::setY'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(57): error C2660: 'Vect2D_Native::getX': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(53): note: see declaration of 'Vect2D_Native::getX' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(58): error C2660: 'Vect2D_Native::getY': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(54): note: see declaration of 'Vect2D_Native::getY' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(72): error C2660: 'Vect2D_Native::getX': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(53): note: see declaration of 'Vect2D_Native::getX' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(75): error C2247: 'Vect2D_Native::getX' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(53): note: see declaration of 'Vect2D_Native::getX'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(78): error C2660: 'Vect2D_Native::getY': function does not take 1 arguments
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(54): note: see declaration of 'Vect2D_Native::getY' (compiling source file ..\Test\privateInheritanceTests.cpp)
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(81): error C2247: 'Vect2D_Native::getY' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(54): note: see declaration of 'Vect2D_Native::getY'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(84): error C2247: 'Vect2D_Native::setID' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(56): note: see declaration of 'Vect2D_Native::setID'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(87): error C2247: 'Vect2D_Native::getID' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(57): note: see declaration of 'Vect2D_Native::getID'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(90): error C2247: 'Vect2D_Native::x' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(61): note: see declaration of 'Vect2D_Native::x'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\privateinheritancetests.cpp(93): error C2247: 'Vect2D_Native::y' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(62): note: see declaration of 'Vect2D_Native::y'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\wrapper.h(47): note: see declaration of 'GameVect'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\basics2\middlewarenative.h(45): note: see declaration of 'Vect2D_Native'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(67): error C2385: ambiguous access of 'a'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(67): note: could be the 'a' in base 'E'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(67): note: or could be the 'a' in base 'E'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(92): error C2385: ambiguous access of 'a'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(92): note: could be the 'a' in base 'M'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(92): note: or could be the 'a' in base 'M'
+c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(110): error C2385: ambiguous access of 'a'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(110): note: could be the 'a' in base 'M'
+  c:\users\kaijun\desktop\csc461\reference\assignments\basics2\test\publicinheritancetests.cpp(110): note: or could be the 'a' in base 'M'

@@ -1,0 +1,430 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+   debug BUILD: success  
+     debug RUN: success 
+
+        MEMORY: failed ... 20%% deduction 
+
+(x86 Debug) testPass: 10
+(x86 Debug) testFail: 0
+
+   --- For grading --- 
+
+         Unit Pass: 10
+       Unit Failed: 0
+
+               Raw: 10
+        Deductions: 2.0
+       Final Score: 8.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+---A---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_A_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 2
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---B---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_B_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 1
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---C---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_C_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 6
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---D---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_D_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 4
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---E---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_E_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 1
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---F---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_F_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 1
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---G---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_G_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 10
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---H---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_H_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 1
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---I---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_I_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 1
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+---J---            
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+Test:Test_J_ProgramTestsGroup_Test 
+
+ (x86 Debug) testPass: 1
+ (x86 Debug) testFail: 0
+
+ testCount: 1
+indvChecks: 3
+
+-----------------
+
+--------------------------------
+>>> Memory Tracking: fail <<<<<<
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+                  
+1>------ Build started: Project: A, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_A.cpp
+1>A.cpp
+1>Generating Code...
+1>A.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\A.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: B, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_B.cpp
+1>B.cpp
+1>Generating Code...
+1>B.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\B.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: C, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_C.cpp
+1>C.cpp
+1>Generating Code...
+1>C.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\C.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: D, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_D.cpp
+1>D.cpp
+1>Generating Code...
+1>D.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\D.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: E, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_E.cpp
+1>E.cpp
+1>Generating Code...
+1>E.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\E.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: F, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_F.cpp
+1>F.cpp
+1>Generating Code...
+1>F.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\F.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: G, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_G.cpp
+1>G.cpp
+1>Generating Code...
+1>G.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\G.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: H, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_H.cpp
+1>H.cpp
+1>Generating Code...
+1>H.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\H.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: I, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_I.cpp
+1>I.cpp
+1>Generating Code...
+1>I.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\I.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: J, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Test_J.cpp
+1>J.cpp
+1>Generating Code...
+1>J.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics5\Debug\J.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

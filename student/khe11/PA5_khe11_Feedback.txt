@@ -1,0 +1,232 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+Implicit errors:  19
+ 
+  RVO Build: success  
+ 
+--- 1st run RVO ---   
+   No_RVO: 1.300587 s
+using_RVO: 0.673088 s
+    Ratio: 1.932268 
+   
+--- 2nd run RVO ---   
+   No_RVO: 1.321495 s
+using_RVO: 0.730500 s
+    Ratio: 1.809029 
+   
+--- 3rd run RVO ---   
+   No_RVO: 1.258982 s
+using_RVO: 0.820467 s
+    Ratio: 1.534470 
+   
+  Proxy Build: success  
+ 
+--- 1st run Proxy ---   
+   No_Proxy: 1.584586 s
+using_Proxy: 0.226244 s
+      Ratio: 7.003874 
+   
+--- 2nd run Proxy ---   
+   No_Proxy: 1.545497 s
+using_Proxy: 0.234040 s
+      Ratio: 6.603569 
+   
+--- 3rd run Proxy ---   
+   No_Proxy: 1.594843 s
+using_Proxy: 0.263338 s
+      Ratio: 6.056258 
+   
+  Benchmark Fast Build: success  
+ 
+--- 1st run Benchmark ---   
+         Create Bloated: 5.654081 s
+               Find Key: 25.939999 ms
+          Memory Stress: 0.592647 s
+            Math Stress: 1.003366 s
+   
+--- 2nd run Benchmark ---   
+         Create Bloated: 5.602540 s
+               Find Key: 28.498938 ms
+          Memory Stress: 0.576968 s
+            Math Stress: 1.011691 s
+   
+--- 3rd run Benchmark ---   
+         Create Bloated: 5.637915 s
+               Find Key: 31.747598 ms
+          Memory Stress: 0.597158 s
+            Math Stress: 1.006617 s
+   
+ 
+  Implicit Prevent Errors: 
+            [x  > 19] --> 1 pts 
+            [x  = 19] --> 2 pts 
+            [x <= 18] --> 1 pts 
+            [x <= 10] --> 0 pts 
+ 
+  RVO: 
+            [x <  1.15] --> 2 pts 
+            [x >= 1.15] --> 0 pts 
+ 
+  Proxy:
+            [x <  0.30] --> 4 pts 
+            [x <  0.40] --> 3 pts 
+            [x <  0.50] --> 2 pts 
+            [x <  0.60] --> 1 pts 
+            [x >= 0.60] --> 0 pts 
+ 
+  Benchmark Math:
+            [x <= 0.25] --> 2 pts 
+            [x <= 0.50] --> 1 pts 
+            [x <  0.80] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+Implicit Errors: 19
+             --> 2 pts
+ 
+using RVO : 0.673088
+        --> 2 pts
+ 
+using Proxy : 0.226244
+          --> 4 pts
+ 
+using Benchmark Math: 1.003366
+                  --> 0 pts
+ 
+               Raw: 8
+        Deductions: 0
+       Final Score: 8
+
+---------------------------------  
+    Implicit                        
+---------------------------------  
+                                   
+1>------ Build started: Project: Implicit, Configuration: PREVENT Win32 ------
+1>main.cpp
+1>Implicit_Prevention_Test.cpp
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(27): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(42): note: see declaration of 'Vect::setX'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(28): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(43): note: see declaration of 'Vect::setY'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(29): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(44): note: see declaration of 'Vect::setZ'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(33): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(42): note: see declaration of 'Vect::setX'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(34): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(43): note: see declaration of 'Vect::setY'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(35): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(44): note: see declaration of 'Vect::setZ'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(39): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(42): note: see declaration of 'Vect::setX'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(40): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(43): note: see declaration of 'Vect::setY'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(41): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(44): note: see declaration of 'Vect::setZ'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(43): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(40): note: see declaration of 'Vect::Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(44): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(40): note: see declaration of 'Vect::Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(45): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(40): note: see declaration of 'Vect::Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(46): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(40): note: see declaration of 'Vect::Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(47): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(40): note: see declaration of 'Vect::Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(51): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(41): note: see declaration of 'Vect::set'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(52): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(41): note: see declaration of 'Vect::set'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(53): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(41): note: see declaration of 'Vect::set'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(54): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(41): note: see declaration of 'Vect::set'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\test\implicit_prevention_test.cpp(55): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(41): note: see declaration of 'Vect::set'
+1>c:\code\___csc461_winter2019\student\khe11\pa5\implicit\implicit.h(13): note: see declaration of 'Vect'
+1>Implicit.cpp
+1>No_Implicit.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Generating Code...
+1>Done building project "Implicit.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+---------------------------------  
+    RVO                             
+---------------------------------  
+                                   
+1>------ Build started: Project: RVO, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>RVOTest.cpp
+1>No_RVO.cpp
+1>RVO.cpp
+1>Generating Code...
+1>RVO.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA5\Debug\RVO.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+---------------------------------  
+    Proxy                           
+---------------------------------  
+                                   
+1>------ Build started: Project: Proxy, Configuration: Release Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>ProxyTest.cpp
+1>No_Proxy.cpp
+1>Proxy.cpp
+1>LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+1>Proxy.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA5\Release\Proxy.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+---------------------------------  
+    Benchmark                       
+---------------------------------  
+                                   
+1>------ Build started: Project: Benchmark, Configuration: MR_FAST Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>BenchmarkTest.cpp
+1>Bloated.cpp
+1>MathTest.cpp
+1>MemoryTest.cpp
+1>Node.cpp
+1>Vect2D.cpp
+1>Generating Code...
+1>BenchmarkFast.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA5\MR_FAST\Benchmark.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

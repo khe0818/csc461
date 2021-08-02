@@ -1,0 +1,75 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 7
+ (x86 Debug) testFail: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 7
+       Unit Failed: 0
+
+               Raw: 7
+        Deductions: 0.0
+       Final Score: 7.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+ (x86 Debug) testPass: 7
+ (x86 Debug) testFail: 0
+
+ testCount: 7
+indvChecks: 50
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Templates, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>A_Test.cpp
+1>B_Test.cpp
+1>C_Test.cpp
+1>D_Test.cpp
+1>E_Test.cpp
+1>F_Test.cpp
+1>G_Test.cpp
+1>A.cpp
+1>B.cpp
+1>C.cpp
+1>Basics8.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics8\Debug\Templates.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

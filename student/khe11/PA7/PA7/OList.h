@@ -1,0 +1,80 @@
+//----------------------------------------------------------------------------
+// Copyright 2019, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+#ifndef OLIST_H
+#define OLIST_H
+
+#include "Node.h"
+#include "DestructCommand.h"
+
+class OList
+{
+public:
+	// specialization
+	OList(int numNodes);
+
+	// Big four
+	OList() = delete;
+	~OList();
+	OList(const OList &) = delete;
+	OList & operator = (const OList &) = delete;
+
+	// Destructors
+	void SetDestructCommand( DestructCommand *pFunctor );
+
+	// Accessors
+	Node *GetHead();
+	void SetHead(Node *pNode);
+
+	// Class methods
+	int GetCutoffLength();
+	bool FindKey(unsigned int key, Node &foundNode);
+
+	// Static Methods
+
+	static bool Verify(const OList *const pNew, const OList * const pOld);
+	static bool VerifySortOrder(const OList *const pList);
+
+	//---------------------------------------------------------------------------------------
+	// Please implement(rework) these methods (add additional methods to help if you want)
+	//---------------------------------------------------------------------------------------
+	struct  LoadInPlace
+	{
+		int blockSize;
+		int ptr;
+		
+	};
+		void SetCutoffLength();
+		OList(const char * const pFileName, int numNodes);
+		void WriteToFile(const char * const pFileName);
+
+		void InsertionSort();
+		void sortedInsert(Node** head_ref, Node* new_node);
+		void MergeSort();
+		void MergeSorts(Node *&Head);
+		Node* SortedMerge(Node* a, Node* b);
+		void FrontBackSplit(Node* source, Node* &frontRef, Node* &backRef);
+		void mergeInsert(Node*& head);
+		void MergeComboSort(int CutoffLength);
+private: 
+
+	// methods
+	void privCreateLinkedList(int numNodes);
+	Node *privGetListHead();
+
+	// -----------------------------------
+	// data
+	// -----------------------------------
+
+	Node			*pHead;
+	DestructCommand *privFunctor;	
+	int  NumNodes;
+	int  mCutoffLength;
+
+};
+
+#endif 
+
+
+// ---  End of File ---------------

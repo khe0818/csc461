@@ -1,0 +1,176 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+  Debug Build: success  
+ 
+  Release Build: success  
+ 
+--- 1st run  ---   
+         Matrix SIMD: 1.847276 s 
+             vM SIMD: 2.404308 s 
+             Mv SIMD: 2.418105 s
+           LERP SIMD: 1.463830 s  
+       rowMajor SIMD: 3.124667 s 
+       colMajor SIMD: 4.130234 s
+   
+--- 2nd run  ---   
+         Matrix SIMD: 1.852364 s 
+             vM SIMD: 2.399487 s 
+             Mv SIMD: 2.421896 s
+           LERP SIMD: 1.467701 s  
+       rowMajor SIMD: 3.130426 s 
+       colMajor SIMD: 4.097852 s
+   
+--- 3rd run  ---   
+         Matrix SIMD: 1.853586 s 
+             vM SIMD: 2.401404 s 
+             Mv SIMD: 2.405155 s
+           LERP SIMD: 1.481852 s  
+       rowMajor SIMD: 3.124162 s 
+       colMajor SIMD: 4.097024 s
+   
+ 
+  Matrix SIMD: 
+            [x <= 2.0] --> 2 pts 
+            [x <= 3.0] --> 1 pts 
+            [x >  3.0] --> 0 pts 
+ 
+  Vect * Matrix SIMD: 
+            [x <= 2.75] --> 2 pts 
+            [x <= 3.25] --> 1 pts 
+            [x >  3.25] --> 0 pts 
+ 
+  Matrix * Vect SIMD: 
+            [x <= 2.75] --> 2 pts 
+            [x <= 3.25] --> 1 pts 
+            [x >  3.25] --> 0 pts 
+ 
+  LERP SIMD: 
+            [x <= 1.6] --> 2 pts 
+            [x <= 2.1] --> 1 pts 
+            [x >  2.1] --> 0 pts 
+ 
+  Row Major SIMD: 
+            [x <= 3.0] --> 2.0 pts 
+            [x <= 3.5] --> 1.5 pts 
+            [x <= 4.0] --> 1.0 pts 
+            [x <= 4.5] --> 0.5 pts 
+            [x >  4.5] --> 0 pts 
+ 
+  Col Major SIMD: 
+            [x <= 3.0] --> 2.0 pts 
+            [x <= 3.5] --> 1.5 pts 
+            [x <= 4.0] --> 1.0 pts 
+            [x <= 4.5] --> 0.5 pts 
+            [x >  4.5] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+using Matrix SIMD: 1.847276
+               --> 2 pts
+ 
+using Vect * Matrix SIMD: 2.399487
+                      --> 2 pts
+ 
+using Matrix * Vect SIMD: 2.405155
+                      --> 2 pts
+ 
+using LERP SIMD: 1.46383
+             --> 2 pts
+ 
+using Row Major SIMD: 3.124162
+                  --> 1.5 pts
+ 
+using Col Major SIMD: 4.097024
+                  --> 0.5 pts
+ 
+               Raw: 10.0
+        Deductions: 0
+       Final Score: 10.0
+
+---------------------------------  
+    Debug                           
+---------------------------------  
+                                   
+1>------ Build started: Project: SIMD, Configuration: Debug Win32 ------
+1>main.cpp
+1>Performance_ColMajorCPP.cpp
+1>Performance_ColMajorSIMD.cpp
+1>Performance_LERPCpp.cpp
+1>Performance_LERPSIMD.cpp
+1>Performance_MatrixCpp.cpp
+1>Performance_MatrixSIMD.cpp
+1>Performance_MatrixVectCpp.cpp
+1>Performance_MatrixVectSIMD.cpp
+1>Performance_VectMatrixCpp.cpp
+1>Performance_VectMatrixSIMD.cpp
+1>Unit_VerifyMath.cpp
+1>Matrix_Col_SIMD.cpp
+1>Matrix_Mv_SIMD.cpp
+1>Matrix_M_SIMD.cpp
+1>Matrix_vM_SIMD.cpp
+1>Vect_Col_SIMD.cpp
+1>Vect_LERP_SIMD.cpp
+1>Vect_Mv_SIMD.cpp
+1>Vect_M_SIMD.cpp
+1>Vect_Row_SIMD.cpp
+1>Vect_vM_SIMD.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>PerformanceTest.cpp
+1>Performance_RowMajorCpp.cpp
+1>Performance_RowMajorSIMD.cpp
+1>Matrix.cpp
+1>Matrix_Row_SIMD.cpp
+1>Vect4D.cpp
+1>PA6.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA6\Debug\SIMD.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+---------------------------------  
+    Release                         
+---------------------------------  
+                                   
+1>------ Build started: Project: SIMD, Configuration: Release Win32 ------
+1>main.cpp
+1>Performance_ColMajorCPP.cpp
+1>Performance_ColMajorSIMD.cpp
+1>Performance_LERPCpp.cpp
+1>Performance_LERPSIMD.cpp
+1>Performance_MatrixCpp.cpp
+1>Performance_MatrixSIMD.cpp
+1>Performance_MatrixVectCpp.cpp
+1>Performance_MatrixVectSIMD.cpp
+1>Performance_VectMatrixCpp.cpp
+1>Performance_VectMatrixSIMD.cpp
+1>Unit_VerifyMath.cpp
+1>Matrix_Col_SIMD.cpp
+1>Matrix_Mv_SIMD.cpp
+1>Matrix_M_SIMD.cpp
+1>Matrix_vM_SIMD.cpp
+1>Vect_Col_SIMD.cpp
+1>Vect_LERP_SIMD.cpp
+1>Vect_Mv_SIMD.cpp
+1>Vect_M_SIMD.cpp
+1>Vect_Row_SIMD.cpp
+1>Vect_vM_SIMD.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>PerformanceTest.cpp
+1>Performance_RowMajorCpp.cpp
+1>Performance_RowMajorSIMD.cpp
+1>Matrix.cpp
+1>Matrix_Row_SIMD.cpp
+1>Vect4D.cpp
+1>PA6.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA6\Release\SIMD.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

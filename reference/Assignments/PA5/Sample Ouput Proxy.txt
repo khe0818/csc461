@@ -1,0 +1,65 @@
+Proxy - Assignment
+	Need to Build in 2 configurations:
+	DEBUG, RELEASE
+
+Configuration:  DEBUG
+
+		************************************
+		**      Framework: 2.21           **
+		**   C++ Compiler: 191627025      **
+		**    Windows SDK: 10.0.17134.0   **
+		************************************
+
+		--------------------------------
+			Memory Tracking: start()    
+		--------------------------------
+
+		------------------- Testing DEBUG ------------------------
+
+		 A: 118601536.000000 62361676.000000 
+		AA: 118601536.000000 62361676.000000 
+
+		No_Proxy: 1.515495 s
+		   Proxy: 1.104924 s
+		   Ratio: 1.371583 
+
+		 (x86 Debug) testPass: 1
+		 (x86 Debug) testFail: 0
+
+		 testCount: 1
+		indvChecks: 1
+
+		-----------------
+
+		--------------------------------
+			Memory Tracking: passed 
+		--------------------------------
+			Memory Tracking: end()      
+		--------------------------------
+		
+Configuration:  RELEASE
+
+		************************************
+		**      Framework: 2.21           **
+		**   C++ Compiler: 191627025      **
+		**    Windows SDK: 10.0.17134.0   **
+		************************************
+
+		------------------- Testing RELEASE ----------------------
+
+		 A: 1073741824.000000 536870912.000000 
+		AA: 1073741824.000000 536870912.000000 
+
+		No_Proxy: 1.410424 s
+		   Proxy: 0.189269 s
+		   Ratio: 7.451940 
+
+		 (x86 Release) testPass: 1
+		 (x86 Release) testFail: 0
+
+		 testCount: 1
+		indvChecks: 1
+
+		-----------------
+
+--- End of file ---

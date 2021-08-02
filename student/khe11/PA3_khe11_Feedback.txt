@@ -1,0 +1,51 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+  debug BUILD: success  
+    debug RUN: success 
+ 
+release BUILD: success  
+  release RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 5
+ (x86 Debug) testFail: 0
+   
+ (x86 Release) testPass: 5
+ (x86 Release) testFail: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 5
+        Deductions: 0.0
+       Final Score: 5.0
+
+1>------ Build started: Project: PA3, Configuration: Debug Win32 ------
+1>main.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>MemReadOnly.cpp
+1>Used.cpp
+1>PA3.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\PA3\Debug\PA3.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

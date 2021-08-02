@@ -1,0 +1,31 @@
+﻿  main.cpp
+  Monkey_SimpleCreate_test.cpp
+  Monkey_Scope_tesst.cpp
+  Monkey_NewFunction_test.cpp
+  Monkey_CopyConstructor_test.cpp
+  Monkey_AssignmentOp_test.cpp
+  Monkey_AssignmentOp2_test.cpp
+  Monkey_SpecializedConstructor_test.cpp
+  Monkey_SpecializedConstuctorWithDefault_test.cpp
+  Nyble_AddOp_test.cpp
+  Nyble_IncrementOps_test.cpp
+  Nyble_BitShift_test.cpp
+  Nyble_SpecialOps3_test.cpp
+  Nyble_SpecialOps2_test.cpp
+  Nyble_SpecialOps_test.cpp
+  Nyble_Simple_test.cpp
+  Monkey.cpp
+  Nyble.cpp
+  FileIO.cpp
+  Timer.cpp
+  UnitTest.cpp
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(32): error C2220: warning treated as error - no 'object' file generated
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(32): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(36): warning C4244: '=': conversion from 'unsigned int' to 'unsigned char', possible loss of data
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(56): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(67): warning C4365: 'return': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(74): warning C4365: '=': conversion from 'int' to 'unsigned char', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(75): warning C4365: 'argument': conversion from 'char' to 'unsigned int', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(79): warning C4365: 'initializing': conversion from 'unsigned char' to 'char', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(80): warning C4365: '=': conversion from 'int' to 'unsigned char', signed/unsigned mismatch
+c:\users\kaijun\desktop\csc461\student\khe11\basics1\basics1\nyble.cpp(82): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch

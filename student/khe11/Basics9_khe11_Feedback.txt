@@ -1,0 +1,75 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ (x86 Debug) testPass: 2
+ (x86 Debug) testFail: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 2
+       Unit Failed: 0
+
+               Raw: 2
+        Deductions: 0.0
+       Final Score: 2.0
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.21           **
+**   C++ Compiler: 191627027      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+ (x86 Debug) testPass: 2
+ (x86 Debug) testFail: 0
+
+ testCount: 2
+indvChecks: 15
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Parse, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>Chunk.cpp
+1>Parse.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics9\Debug\Parse.exe
+2>------ Build started: Project: Ellipsis, Configuration: Debug Win32 ------
+2>main.cpp
+2>FileIO.cpp
+2>Timer.cpp
+2>UnitTest.cpp
+2>SecondMax_tests.cpp
+2>Parse_Test.cpp
+2>SecondMax.cpp
+2>Ellipsis.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics9\Debug\Ellipsis.exe
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

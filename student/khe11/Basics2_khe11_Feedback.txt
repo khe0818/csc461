@@ -1,0 +1,83 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: khe11
+     name: Kaijun He
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+-> WRAPPER: 8
+ 
+ (x86 Debug) testPass: 5
+ (x86 Debug) testFail: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 5 (does not include wrapper error check)
+        Deductions: 0.0
+       Final Score: 6.0 (adds 1 pt if wrapper error checks are correct)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+************************************
+**      Framework: 2.20           **
+**   C++ Compiler: 191627025      **
+**    Windows SDK: 10.0.17134.0   **
+************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+ (x86 Debug) testPass: 5
+ (x86 Debug) testFail: 0
+
+ testCount: 5
+indvChecks: 50
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+1>------ Build started: Project: Basics2, Configuration: Debug Win32 ------
+1>main.cpp
+1>FileIO.cpp
+1>Timer.cpp
+1>UnitTest.cpp
+1>A.cpp
+1>B.cpp
+1>C.cpp
+1>D.cpp
+1>E.cpp
+1>F.cpp
+1>G.cpp
+1>H.cpp
+1>M.cpp
+1>privateInheritanceTests.cpp
+1>publicInheritanceTests.cpp
+1>MiddlewareNative.cpp
+1>N.cpp
+1>O.cpp
+1>P.cpp
+1>Wrapper.cpp
+1>Basics2.vcxproj -> C:\code\___CSC461_Winter2019\student\khe11\Basics2\Debug\Basics2.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

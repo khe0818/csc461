@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{fbc57e9c-dc71-431f-a371-4710e366d9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test">
+      <UniqueIdentifier>{87f5eea6-4cad-45df-917a-dcc838b9df51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_">
+      <UniqueIdentifier>{f1fcb46b-73c8-4b17-933d-c754532bf5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_REFACTOR_">
+      <UniqueIdentifier>{0991109f-7f85-4ca5-b7c7-b2e611da669a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Framework\Timer.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\UnitTest.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\privateInheritanceTests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\publicInheritanceTests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Framework\FileIO.cpp">
+      <Filter>_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="F.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="N.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="O.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="P.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrapper.cpp">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="E.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="H.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="M.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddlewareNative.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Main\main.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\MemTracker.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\MemTrackerMain.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Timer.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Trace.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\UnitTest.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="B.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="C.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="D.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="E.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="H.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="F.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="G.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddlewareNative.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="M.h">
+      <Filter>Source Files\_DO NOT MODIFY_</Filter>
+    </ClInclude>
+    <ClInclude Include="N.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="O.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="P.h">
+      <Filter>Source Files\_REFACTOR_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\UnitTestBufferManager.h">
+      <Filter>_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\FileIO.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\FrameworkVersion.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\_UnitTestConfiguration.h">
+      <Filter>_Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\Test\__DO NOT MODIFY__">
+      <Filter>_Test</Filter>
+    </None>
+    <None Include="ClassDiagrams.cd" />
+  </ItemGroup>
+</Project>

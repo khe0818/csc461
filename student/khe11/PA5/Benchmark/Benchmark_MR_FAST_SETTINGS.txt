@@ -1,0 +1,24 @@
+
+------------------- 
+
+MR_FAST - Settings
+
+Name: Kaijun He
+
+Compiler Settings
+	- List any changes to the compiler settings here
+	--> Fill in as you improve the tests
+
+example:
+
+Use Unicode For Assembler Listing: orig: <unset>   now:  No
+Change List:
+1. Assembler Ouput: Original: not list.     Now: Assembly With Machine Code (/FAc)
+2. Enable Parellel Code Generation: Original: unset  Now: Yes (/Qpar)
+2. Enable Fiber-Safe optimizations: Original: No    Now: Yes (/GT)
+3. Favor Size of Speed :Orignal: Neither      Now:Favor fast code (/Ot)
+4. Floating Point Model :Orignal Precise (/fp:precise)  Now: Fast (/fp:fast)
+5. Omit Frame Pointer:Orignal: No (/Oy-)      Now: Yes (/Oy)
+
+
+--- End of File
